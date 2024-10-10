@@ -1,0 +1,38 @@
+name = "project"
+skipFolders = [ "node_modules", ".vscode", "out", "dist", ".vscode-test" ]
+skipFiles = [ ".gitignore", "package.json" ]
+
+[[processes]]
+id = "process1"
+name = "To Do"
+
+  [[processes.tasks]]
+  id = "hyhnmw0j5mxye0f0il5vsdkd"
+  title = "Plan scope of project and distribute tasks"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+tasks = [ ]
+
+[[processes]]
+id = "process3"
+name = "Done"
+
+  [[processes.tasks]]
+  id = "uq9lsqmjl11vjns46gw5vlqw"
+  title = "Initialize KanPilot"
+  description = ""
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = "10/10/2024"
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
