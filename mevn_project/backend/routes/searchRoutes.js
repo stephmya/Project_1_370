@@ -1,8 +1,9 @@
-const express = require('express');
+// backend/routes/searchRoutes.js
+const express = require("express");
 const router = express.Router();
-const User = require('../models/User');
+const User = require("../models/User");
 
-router.get('/search', async (req, res) => {
+router.get("/search", async (req, res) => {
   try {
     const query = {};
     if (req.query.name) query.name = req.query.name;
@@ -12,7 +13,7 @@ router.get('/search', async (req, res) => {
     const results = await User.find(query);
     res.json(results);
   } catch (error) {
-    res.status(500).json({ error: 'Error fetching results' });
+    res.status(500).json({ error: "Error fetching results" });
   }
 });
 
