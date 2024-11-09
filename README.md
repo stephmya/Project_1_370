@@ -11,9 +11,11 @@
 
 Webapp in Vue to interact with a MongoDB database. This allows the user to view data entries based on criteria.
 
+This uses: Vuetify, Vue, Express, Axios, Node, MongoDB.
+
 ### Setup
 1. Clone
 2. Run npm i in backend and frontend folders
-3. Starting the frontend ```npm start``` in the frontend folder
+3. Starting the frontend ```npm run serve``` in the frontend folder
 4. Starting the backend ```npm start``` in the backend folder
 5. The database should be called users to connect correctly
