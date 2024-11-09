@@ -65,9 +65,9 @@
       <!-- Search Button -->
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn @click="fetchResults" color="primary" block class="search-btn"
-  
-          > Search </v-btn>
+        <v-btn @click="fetchResults" color="primary" block class="search-btn">
+          Search
+        </v-btn>
       </v-card-actions>
     </v-card>
 
