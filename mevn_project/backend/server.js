@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/mevn-app")
+  .connect("mongodb://localhost:27017/users")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log("Failed to connect to MongoDB", err));
 
