@@ -9,10 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost:27017/mevn-app", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://localhost:27017/mevn-app")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log("Failed to connect to MongoDB", err));
 
