@@ -16,7 +16,7 @@ This uses: Vuetify, Vue, Express, Axios, Node, MongoDB.
 ### Setup
 
 1. Clone
-2. Run npm i in backend and frontend folders
+2. Run npm i in backend and frontend folders of mevn_project
 3. Starting the frontend
 
     ```bash
